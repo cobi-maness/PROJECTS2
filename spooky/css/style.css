@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200');
+
+body{
+  margin:0;
+  background-color:black;
+  color:rgb(215, 116, 12);
+  font-family: 'Source Sans Pro', sans-serif;
+}
+header{
+  /*margin-top:5%;*/
+  background-image:url(../img/headbg.jpg);
+  /*background-size:cover;*/
+  background-position: top;
+  /*width:100%;*/
+  box-shadow: inset 0 0 5px 2px black
+  /*height:300px;*/
+}
+nav{
+  display:flex;
+  justify-content: space-between;
+  /*text-align: left;*/
+  padding:50px;
+  align-items: flex-end;
+  /*text-align: center;*/
+}
+.one{
+  display: flex;
+  /*margin-right:60%;*/
+  align-items: flex-end;
+  text-align: center;
+}
+.one li{
+  list-style-type: none;
+}
+ul .boi {
+  padding:10px;
+  text-decoration: none;
+  color:rgb(232, 236, 48);
+  background-image:
+    linear-gradient(
+      to top right,
+      red, #f06d06
+    );
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+ul .boi:hover {
+  background-image:
+    linear-gradient(
+      to top right,
+      red, rgb(23, 23, 23)
+    );
+}
+.home{
+  background-image:
+    linear-gradient(
+      to top right,
+      red, rgb(23, 23, 23)
+    );
+}
+.costumes{
+  background-image:
+    linear-gradient(
+      to top right,
+      red, rgb(23, 23, 23)
+    );
+}
+
+.decorations{
+  background-image:
+    linear-gradient(
+      to top right,
+      red, rgb(23, 23, 23)
+    );
+}
+
+.parties{
+  background-image:
+    linear-gradient(
+      to top right,
+      red, rgb(23, 23, 23)
+    );
+}
+main {
+  margin:10%;
+  background-image:url(../img/leftbg.jpg);
+  float:left;
+  width:60%;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+aside {
+  /*margin:10%;*/
+  float:right;
+  width:40%;
+  background-image:url(../img/rightbg.png);
+  background-repeat: no-repeat;
+  /*height: inherit;*/
+}
+aside .spooks {
+list-style-type:none;
+}
+.spooks a {
+  text-decoration: none;
+  color:rgb(251, 178, 16);
+  border-bottom:1px solid black;
+}
+.spooks a:hover{
+  color:rgb(224, 61, 9);
+}
+aside span{
+  font-size:10px;
+}
+main #t {
+  font-size:5em;
+  font-weight: bold;
+}
+main p{
+  width:60%;
+  display: block;
+  font-size:20px;
+}
+main .aside{
+  /*display: flex;
+  justify-content: space-between;*/
+  float:right;
+}
+/*dhihwihohfwhqofhwqihofhwquo*/
+footer{
+  /*margin:10%;*/
+  display: flex;
+  align-content:flex-end;
+}
+/*footer .div1{
+  display: flex;
+}*/
