@@ -1,0 +1,60 @@
+body{
+  margin:0;
+  background-color:rgb(57, 7, 7);
+}
+header{
+  background-image:url(../img/headbg.jpg);
+  background-size:cover;
+  /*max-width: 800px;*/
+  margin:0
+}
+.container {
+  max-width:800px;
+  margin-left: 17%;
+  color:white;
+
+}
+/*main{
+  max-width: 800px;
+}*/
+main section {
+  float:left;
+  width: 64%;
+  background-image:url(../img/leftbg.jpg);
+  margin:0;
+}
+main aside {
+  width:34%;
+  float:right;
+  background-image:url(../img/rightbg.png);
+  margin:0;
+}
+/*#mega{
+  background-color:hsla(9, 83%, 9%);
+  /*display: flex;
+  flex-direction: row;
+  justify-content: space-between;*/
+
+}
+#mega img {
+  position:relative;
+}
+#mega div {
+  width:calc(100% / 3);
+  display: block;
+}
+@media only screen and (max-width:799px) {
+  .container{
+    max-width: 799px;
+
+  }
+  section{
+    width:100%;
+  }
+  aside{
+
+  }
+}
+@media only screen and (max-width:450px) {
+
+}
