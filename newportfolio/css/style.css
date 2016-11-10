@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+
+body{
+  margin:0;
+  background-color:#FADD26;
+}
+section {
+  text-align: center;
+  margin-top:200px;
+  background-image: url(https://images3.pixlis.com/background-image-plaid-checkered-seamless-tileable-light-sea-green-light-pink-235ffh.png);
+  filter:saturate(8);
+  height:370px;
+  /*transform: rotate(2deg);*/
+  width:100%;
+  position: relative;
+
+
+}
+h1{
+
+  position:absolute;
+  top:30px;
+  left:60;
+
+  /*margin-top:400px;*/
+  font-size: 6em;
+  transform: rotate(-28deg);
+  font-family: 'Archivo Black', sans-serif;
+  text-shadow: 10px 10px 10px #000000;
+  /*color:#20B2AA;*/
+  color:white;
+  transition: font-size .3s ease;
+
+
+}
+h1:hover{
+font-size: 8em;
+transition: font-size .3s ease;
+}
+
+a{
+  margin-top:150px;
+  position:absolute;
+  border:2px solid white;
+  text-decoration: none;
+  color:white;
+  font-family: 'Archivo Black', sans-serif;
+  padding:20px;
+
+  font-size:2em;
+}
+a:hover{
+  text-shadow: 2px 2px  #FFB6C1 ;
+  background-color:rgb(254, 244, 1);
+  border:none;
+  color:black;
+  box-shadow:10px 10px 10px #000000;
+  transition:.25s ease-in;
+}
