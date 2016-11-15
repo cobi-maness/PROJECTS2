@@ -29,13 +29,13 @@ h1{
   text-shadow: 10px 10px 10px #000000;
   /*color:#20B2AA;*/
   color:white;
-  transition: font-size .3s ease;
+  transition: all .3s ease-in-out;
 
 
 }
 h1:hover{
 font-size: 8em;
-transition: font-size .3s ease;
+/*transition: font-size .3s ease;*/
 }
 
 a{

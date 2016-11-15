@@ -1,0 +1,18 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body{
+  margin:0;
+}
+i{
+    color: black;
+}
+section img {
+  position:fixed
+  height:500px;
+}
+section{
+  display: flex;
+  justify-content: center;
+  width:30%;
+  background-color:rgb(223, 223, 223);
+  height: 900px;
+}

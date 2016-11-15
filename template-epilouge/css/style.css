@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Julius+Sans+One|Lobster');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body{
+  margin:0;
+  background-color:rgb(222, 222, 222);
+}
+header{
+  background-color: rgba(0, 0, 0, 0.25);
+  background-image: url(../imgs/mountains2.png);
+  background-attachment: fixed;
+  height: 400px;
+  text-align: center;
+  padding-top:10%;
+  /*filter:blur(2px);*/
+}
+header h1{
+  margin: 0;
+  font-size:6em;
+  font-family: 'Lobster', cursive;
+  color:white;
+  font-weight:lighter;
+  /*padding:10px;*/
+}
+header hr {
+  width:300px;
+  /*padding-bottom:20px;*/
+}
+header span {
+  padding:10px;
+  color:white;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 5px;
+}
+#t{
+  border-bottom:1px dashed white;
+  text-decoration: none;
+  color:white;
+  transition: .57s ease;
+
+}
+#t:hover{
+  color:rgb(241, 25, 142);
+  transition: .57s ease;
+  border-bottom:none;
+}
+section{
+  max-width: 900px;
+  text-align: center;
+  margin-top:5%;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: white;
+  color:rgb(42, 42, 42);
+  font-family: 'Julius Sans One', sans-serif;
+  height:500px;
+
+}
+section i {
+  margin-top:5%;
+  border:2px solid rgb(42, 42, 42);
+  border-radius:100%;
+  padding:25px;
+}
+section h1 {
+  font-size:3em;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  margin-bottom:5%;
+}
+section a {
+  font-size:20px;
+  border:2px solid rgb(42, 42, 42);
+  padding:10px;
+  text-decoration: none;
+  color:rgb(42, 42, 42);
+  transition: .57s ease;
+  border-radius:5%;
+
+}
+section p{
+  margin-bottom:5%;
+}
+section a:hover {
+  color:rgb(241, 25, 142);
+  transition: .57s ease;
+  border:2px solid rgb(241, 25, 142);
+
+}
