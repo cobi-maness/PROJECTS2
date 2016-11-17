@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+body{
+  margin:0;
+  background-image: url(../img/bg.jpg);
+  background-attachment: fixed;
+}
+main{
+  max-width: 900px;
+  /*background-color:red;*/
+  margin-left: 19%;
+}
+.first {
+  text-align: center;
+  background-image: url(../img/FAKEbanner.png);
+  height:600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  letter-spacing: 2px;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  margin-top:5%;
+  padding-top:15%;
+
+}
+.first h1 {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 5px;
+}
+hr {
+  width:100px;
+}
+.first p {
+  margin-bottom:22%;
+}
+.first a {
+  text-decoration: none;
+  color:white;
+  border:2px solid white;
+  padding:20px;
+  font-size: 12px;
+  transition: .75s ease;
+  letter-spacing: 1px;
+
+}
+.first a:hover {
+  background-color: rgba(187, 187, 187, 0.26);
+  transition: .75s ease;
+  letter-spacing: 4px;
+
+}
+.second {
+  background-color: #32383F;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+}
+#header {
+  text-align: center;
+  height:200px;
+  padding-top:10%;
+  letter-spacing: 2px;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient( to top right, lightblue, pink);
+}
+#header p {
+  font-size:10px;
+}
+#papa{
+  display: flex;
+  justify-content: space-around;
+  padding:5%;
+}
+.boi p {
+  font-size:15px;
+}
+.boi{
+  height:100%;
+  padding-right:10px;
+/*border-right:1px solid rgb(139, 139, 139);*/
+
+}
+.boi i {
+  margin-bottom: 25px;
+  font-size: 30px;
+}
