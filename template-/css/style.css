@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Voltaire|Work+Sans:200');
+
+body{
+  margin:0;
+  background-image: url(../imgs/bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+main{
+  background-color: rgb(27, 27, 27);
+  height:100%;
+  max-width:800px;
+  margin-left:23%;
+  margin-top:5%;
+  border-radius:1%;
+  /*background-attachment: fixed;*/
+}
+.header{
+  text-align: center;
+  padding-top:10%;
+  /*color:white;*/
+  font-family: 'Work Sans', sans-serif;
+  color:rgb(110, 110, 110);
+
+
+}
+.header h1 {
+  font-size:6vh;
+  letter-spacing: 5px;
+  font-weight:lighter;
+  color:white;
+}
+.header hr {
+  width:400px;
+  /*color:rgb(62, 62, 62);*/
+  margin-bottom: 5%;
+}
+.header span {
+  font-size: 3vh;
+  letter-spacing: 3px;
+  /*color:rgb(105, 105, 105);*/
+
+}
+.header #border {
+  border-left:1px solid rgb(110, 110, 110);
+  border-right:1px solid rgb(110, 110, 110);
+
+}
+.header a {
+  text-decoration: none;
+  color:inherit;
+  padding:30px;
+}
+.header ul{
+  margin-top:15%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding:30px;
+  border-top:2px solid rgb(110, 110, 110);
+
+}
+.header li {
+}
+.pic {
+  margin-top:-16px;
+  background-image:url(../imgs/camera.png);
+  background-size: cover;
+  height:549px;
+  text-align: center;
+  padding-top:15%;
+  font-family: 'Work Sans', sans-serif;
+
+}
+.pic p{
+  color:white;
+  font-size:3em;
+  margin-bottom:15%;
+}
+.pic a {
+  font-size:20px;
+  text-decoration: none;
+  color:white;
+  padding:10px 20px 10px;
+  border:1px solid white;
+  /*margin-top:10%;*/
+  border-radius:1%;
+  transition: .75s ease;
+}
+.pic a:hover{
+  background-color:rgba(185, 185, 185, 0.39);
+  transition: .75s ease;
+}
+.monty {
+  display: flex;
+  justify-content: space-between;
+  padding-left:5%;
+  padding-right:5%;
+  text-align:center;
+  color:white;
+  font-family: 'Work Sans', sans-serif;
+}
+.monty h1 {
+  letter-spacing: 2px;
+}
+.monty p {
+  font-size:15px;
+}
+.monty a {
+  text-decoration: none;
+  color:white;
+  padding:5px 10px 5px;
+  border:1px solid white;
+  /*margin-top:10%;*/
+  border-radius:1%;
+  transition: .75s ease;
+}
+#p1{
+  border:1px solid rgb(41, 41, 41);
+}
