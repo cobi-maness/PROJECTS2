@@ -1,121 +1,177 @@
-@import url('https://fonts.googleapis.com/css?family=Voltaire|Work+Sans:200');
-
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:200');
 body{
-  margin:0;
+  margin: 0;
   background-image: url(../imgs/bg.jpg);
   background-size: cover;
-  background-attachment: fixed;
-
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
 }
 main{
-  background-color: rgb(27, 27, 27);
-  height:100%;
-  max-width:800px;
-  margin-left:23%;
-  margin-top:5%;
-  border-radius:1%;
-  /*background-attachment: fixed;*/
+  color: gray;
+  border-radius: 1%;
+  background-color: black;
+  height: 100%;
+  max-width: 800px;
+  margin-left: 20%;;
+  margin-top: 5%;
 }
 .header{
   text-align: center;
-  padding-top:10%;
-  /*color:white;*/
-  font-family: 'Work Sans', sans-serif;
-  color:rgb(110, 110, 110);
-
-
+  padding-top: 10%;
+  color: rgb(105, 105, 105)
 }
 .header h1 {
-  font-size:6vh;
+  font-size: 6vh;
   letter-spacing: 5px;
-  font-weight:lighter;
-  color:white;
+  font-weight: lighter;
+  color: rgb(193, 193, 193);
+
 }
 .header hr {
-  width:400px;
-  /*color:rgb(62, 62, 62);*/
+  width: 400px;
+  color: rgb(62, 62, 62);
   margin-bottom: 5%;
 }
-.header span {
+.header span{
   font-size: 3vh;
   letter-spacing: 3px;
-  /*color:rgb(105, 105, 105);*/
-
 }
-.header #border {
-  border-left:1px solid rgb(110, 110, 110);
-  border-right:1px solid rgb(110, 110, 110);
-
+.header ul {
+  margin-top: 15%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  border-top: 1px solid rgb(110, 110, 110);
 }
 .header a {
   text-decoration: none;
-  color:inherit;
-  padding:30px;
+  color: inherit;
+  padding: 30px;
 }
-.header ul{
-  margin-top:15%;
-  list-style-type: none;
-  display: flex;
-  justify-content: space-around;
-  padding:30px;
-  border-top:2px solid rgb(110, 110, 110);
-
+.header #border{
+  border-left: 1px solid rgb(110, 110, 110);
+  border-right: 1px solid rgb(110, 110, 110);
+  padding: 30px;
 }
-.header li {
-}
-.pic {
-  margin-top:-16px;
-  background-image:url(../imgs/camera.png);
-  background-size: cover;
-  height:549px;
+.pic{
+  margin-top: -17px;
+  background-image: url(../imgs/camera.png);
+  height: 549px;
   text-align: center;
-  padding-top:15%;
-  font-family: 'Work Sans', sans-serif;
-
+  padding-top: 15%;
+  background-size: cover;
 }
-.pic p{
-  color:white;
-  font-size:3em;
-  margin-bottom:15%;
+.pic p {
+  margin-top: -17px;
+  color: rgb(193, 193, 193);
+  font-size: 3em;
+  text-align: center;
 }
 .pic a {
-  font-size:20px;
-  text-decoration: none;
-  color:white;
-  padding:10px 20px 10px;
-  border:1px solid white;
-  /*margin-top:10%;*/
-  border-radius:1%;
-  transition: .75s ease;
-}
-.pic a:hover{
-  background-color:rgba(185, 185, 185, 0.39);
-  transition: .75s ease;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 20px;
 }
 .monty {
   display: flex;
-  justify-content: space-between;
-  padding-left:5%;
-  padding-right:5%;
-  text-align:center;
-  color:white;
-  font-family: 'Work Sans', sans-serif;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  color: white;
 }
 .monty h1 {
   letter-spacing: 2px;
 }
 .monty p {
-  font-size:15px;
+  font-size: 15px;
 }
 .monty a {
   text-decoration: none;
-  color:white;
-  padding:5px 10px 5px;
-  border:1px solid white;
-  /*margin-top:10%;*/
-  border-radius:1%;
+  color: white;
+  padding: 5px 10px 5px;
+  border: 1px solid white;
+  border-radius: 1%;
   transition: .75s ease;
 }
-#p1{
-  border:1px solid rgb(41, 41, 41);
+#p1 {
+  border-bottom: 1px solid rgb(41, 41, 41);
+  padding: 48px 48px 48px 80px
+}
+.cobi {
+  text-align: center;
+  font-weight: 700;
+}
+.cobi h1 {
+  color: white;
+}
+.cobi hr {
+  width: 40%;
+  align-self: center;
+  color: hsla(0, 0% , 0% , .75);
+}
+.cobi h3 {
+  rgb(219, 219, 219);
+}
+.pics {
+  display: flex;
+  padding: 20px 20px 20px 30px;
+}
+.pic1,  .pic2 {
+ text-align: left;
+ padding-left: 45px
+}
+.pic2 {
+  order:-1;
+}
+.learn h1 {
+  letter-spacing: 4px;
+  color:rgb(91, 91, 91);
+  margin-bottom:7%;
+
+}
+.learn hr {
+  width:80%;
+}
+.learn a {
+  /*margin-top:10%;*/
+  text-decoration: none;
+  color:white;
+  padding:20px;
+  font-size:3vh;
+  border:1px solid white;
+  transition: all .75s ease;
+  border-radius:1%;
+}
+.learn a:hover {
+  background-color: rgba(223, 223, 223, 0.53);
+  transition: all .75s ease;
+}
+.form {
+  margin-top:10%;
+  text-align: center;
+}
+.form h1 {
+  color:white;
+  font-size:5vh;
+}
+.here {
+  width:200px;
+  padding:20px;
+  background-color: black;
+  color:white;
+}
+.subject {
+  width:500px;
+  padding:10px;
+  background-color: black;
+  color:white;
+  margin-bottom:5%;
+}
+.message {
+  height:200px;
+  width:500px;
+  color:white;
+  background-color: black;
 }

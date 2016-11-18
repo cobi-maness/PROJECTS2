@@ -11,7 +11,7 @@ body{
   text-align: center;
   float:left;
   background-image:url(../imgs/hd_FLAMES.png);
-  max-width: 400px;
+  width: 350px;
   background-size:cover;
   position: fixed;
 }
@@ -26,7 +26,7 @@ body{
   /*position: fixed;*/
   float:right;
   /*max-width: 400px;*/
-  width: 400px;
+  width: 430px;
   margin-top:100px;
   margin-right:300px;
   margin-bottom: 100px;
@@ -47,7 +47,7 @@ body{
   /*transform: scale(1.1);*/
 
 }
- a {
+ #meh a {
    /*display: flex;
    position: relative;*/
    /*font-size:2em;*/
@@ -63,7 +63,7 @@ body{
   margin-left:500px;
   margin-top:50px;*/
 }
-a:hover{
+#meh a:hover{
   color:#F0F09D;
   box-shadow:5px 6px 7px #000000;
 
