@@ -1,0 +1,35 @@
+body{
+  margin:0;
+}
+main{
+  background-image: url(http://bndesign.net/wp-content/uploads/2013/06/modern-living-room-accents-271.jpg);
+  height:600px;
+  background-size:cover;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin-left:30%;
+  margin-right:20%;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+nav li{
+  /*background-color: rgb(228, 70, 27);*/
+  margin:20px;
+  padding:10px;
+}
+nav li:hover {
+  background-color: rgb(228, 70, 27);
+
+}
+#home {
+  background-color: rgb(228, 70, 27);
+
+}
+nav a {
+  text-decoration: none;
+  color:white;
+}

@@ -4,6 +4,7 @@ body{
   margin: 0;
   background-image: url(../imgs/bg.jpg);
   background-size: cover;
+  background-attachment:local;
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
 }

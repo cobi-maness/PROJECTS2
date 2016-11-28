@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Carme|Viga');
+
+body{
+  margin:0;
+}
+header{
+  height:100px;
+  /*display: flex;
+  justify-content:space-between; */
+}
+nav{
+  display: flex;
+  justify-content:space-between;
+  margin:0 200px 0;
+}
+nav ul li {
+
+  list-style-type: none;
+  display: inline;
+  padding:10px;
+  /*transition: .75s ease;*/
+
+}
+li{
+  transition: .75s ease;
+
+}
+ul a {
+  font-size:2.75vh;
+  font-family: 'Carme', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color:black;
+}
+#home {
+  border-bottom: 2px solid black;
+}
+nav li:hover {
+  border-bottom: 2px solid black;
+  transition: .75s ease;
+}
+#travel {
+  font-size:9vh;
+  text-transform:lowercase;
+  text-decoration: none;
+  color:black;
+  font-family: 'Viga', sans-serif;
+
+}
+main{
+  background-image:url(https://c1.staticflickr.com/8/7512/15945945507_f95e06a75a_b.jpg);
+  height:500px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  background-attachment: fixed;
+}
+main h1 span {
+  margin-left:300px;
+}
