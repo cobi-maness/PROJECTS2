@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Montserrat+Alternates');
+
+body{
+  margin:0;
+  background-image: url(../imgs/blue.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.dos{
+  display: flex;
+  justify-content: center;
+}
+.uno{
+  text-align: center;
+  padding-top:5%;
+
+}
+h1 {
+  font-size:10px;
+  color:white;
+  font-family: 'Archivo Black', sans-serif;
+}
+a {
+  padding-top:5%;
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-decoration: none;
+  color:#ad1687;
+  background-color:white;
+  padding:20px;
+  border-radius: 5px;
+  font-size:2em;
+  transition: all .75s ease;
+
+}
+a:hover {
+  color:white;
+  background-color:inherit;
+  transition: all .75s ease;
+}

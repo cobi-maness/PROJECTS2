@@ -68,3 +68,61 @@ body{
   box-shadow:5px 6px 7px #000000;
 
 }
+#mobile{
+  display: none;
+
+}
+ul {
+  display:none;
+  list-style-type: none;
+  text-align: center;
+  margin-top:30%;
+}
+ul li{
+  font-size: 2em;
+  color:white;
+  font-family: 'Archivo Black', sans-serif;
+  text-shadow: 10px 10px 10px #000000;
+  margin-top:10%;
+}
+ul a {
+  text-decoration: none;
+  color:white;
+  font-family: 'Archivo Black', sans-serif;
+  padding:10px;
+  background-image: url(../imgs/golf.jpg);
+  background-size:contain;
+}
+@media (max-width: 800px) {
+  body{
+    background-image:url(../imgs/hd_FLAMES.png);
+    background-size:cover;
+  }
+  .stuff{
+    display: none;
+  }
+  #section {
+    display: none;
+  }
+  ul {
+    display: block;
+    list-style-type: none;
+    text-align: center;
+    margin-top:30%;
+  }
+  ul li{
+    font-size: 2em;
+    color:white;
+    font-family: 'Archivo Black', sans-serif;
+    text-shadow: 10px 10px 10px #000000;
+    margin-top:10%;
+  }
+  ul a {
+    text-decoration: none;
+    color:white;
+    font-family: 'Archivo Black', sans-serif;
+    padding:10px;
+    background-image: url(../imgs/golf.jpg);
+    background-size:contain;
+  }
+}

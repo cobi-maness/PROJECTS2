@@ -52,3 +52,56 @@ font-size:20px;
 .round ul a:hover{
   color:#FFD600;
 }
+.mobile {
+  display: none;
+text-align: center;
+background-image:url(https://i.imgur.com/1yxjc4D.jpg);
+height:400px;
+}
+.mobile ul {
+  list-style-type: none;
+  margin-top:5%;
+
+}
+.mobile ul li {
+  color:white;
+  text-shadow: 3px 3px #000000;
+  font-family: 'Archivo Black', sans-serif;
+  padding:10px;
+  font-size:20px;
+}
+@media (max-width: 800px) {
+  .round{
+    display:none;
+  }
+  .mobile {
+    display: block;
+  text-align: center;
+  background-image:url(https://i.imgur.com/1yxjc4D.jpg);
+  height:400px;
+  }
+  .mobile ul {
+    list-style-type: none;
+    margin-top:5%;
+
+  }
+  .mobile ul li {
+    color:white;
+    text-shadow: 3px 3px #000000;
+    font-family: 'Archivo Black', sans-serif;
+    padding:10px;
+    font-size:20px;
+    margin-bottom:5%;
+  }
+  .a {
+    color:white;
+    text-shadow: 3px 3px #000000;
+    font-family: 'Archivo Black', sans-serif;
+    padding:10px;
+    font-size:15px;
+    text-decoration: none;
+
+    background-color:#FFD600;
+
+  }
+}
