@@ -1,0 +1,163 @@
+ @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Pacifico');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+
+}
+h1{
+  margin: 0;
+  font-family: 'Pacifico';
+  color: hsl(9, 89%, 67%);
+}
+#hero{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20%;
+  text-align: center;
+  background-image: url(../imgs/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 150px 0 100px;
+
+}
+#hero div {
+  width:75%;
+}
+#hero .btn {
+  display: inline-block;
+
+}
+ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:20px;
+  position: fixed;
+  background-color: white;
+  width:100%;
+  box-sizing: border-box;
+
+}
+nav div {
+  position: absolute;
+  top:0;
+  left:-250px;
+  width:250px;
+  height:100vh;
+  transition: all 250ms ease-out;
+  background-color: hsl(193, 68%, 45%);
+}
+nav div.open {
+  left:0px;
+}
+nav div i {
+  position: absolute;
+  right:18px;
+  top:16px;
+  color:white;
+
+}
+nav ul{
+  padding:20px;
+}
+/*nav ul:hover{
+  left:0;
+
+}*/
+nav li{
+  border-bottom: 1px solid hsla(0, 0%, 100%, .25);
+}
+nav a {
+  display: inline-block;
+  padding:15px 0;
+  text-decoration: none;
+  color:white;
+  font-weight: 400;
+  font-family: inherit;
+}
+.btn {
+  border:1px solid lightgrey;
+  background-color:white;
+  padding:15px;
+  font-weight:bold;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: inherit;
+  text-decoration: none;
+}
+.btn-cta {
+  background-color:hsl(9, 89%, 67%);
+  border:none;
+  color:white;
+
+}
+.phone{
+  margin-top:100px;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+}
+
+.phone img {
+  border-radius:80%;
+}
+#divsec h3{
+  color:rgb(23, 138, 181);
+}
+#divsec{
+  padding:5%;
+}
+#divsec p{
+  color:rgb(160, 160, 161);
+  padding-bottom:20%;
+  font-weight:lighter;
+  font-style:italic;
+}
+#orngbg{
+  text-align: center;
+  color:white;
+  background-color: hsl(9, 89%, 67%);
+  padding:10%;
+}
+#orngbg h3 {
+  font-size: 2em;
+}
+#orngbg p{
+  font-weight:lighter;
+  /*color:rgb(160, 160, 161);*/
+  font-style: italic;
+}
+.row{
+display: flex;
+justify-content: space-between;
+flex-direction: row-reverse;
+text-align: center;
+}
+.makesmall{
+  height:50px;
+}
+.center{
+  text-align: center;
+}
+.row h3 p {
+  margin-top:5%;
+}
+.bluebg {
+  text-align: center;
+  margin-top:10%;
+  background-color: rgb(34, 114, 148);
+  color:white;
+  padding:10%;
+}
+hr{
+  font-weight: lighter;
+}
