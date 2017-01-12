@@ -23,6 +23,9 @@ h1{
   padding: 150px 0 100px;
 
 }
+#hero h2 {
+  color:rgb(23, 138, 181);
+}
 #hero div {
   width:75%;
 }
@@ -138,12 +141,21 @@ nav a {
 }
 .row{
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 flex-direction: row-reverse;
 text-align: center;
+margin-top:5%;
+}
+.row h3 {
+  color: rgb(34, 114, 148);
 }
 .makesmall{
-  height:50px;
+height:200px;
+width:300px;
+}
+#divpic{
+  width:300px;
+  border:1px solid rgb(199, 199, 199);
 }
 .center{
   text-align: center;
@@ -158,6 +170,29 @@ text-align: center;
   color:white;
   padding:10%;
 }
+.bluebg i {
+  color:rgb(199, 199, 199);
+  padding:5px;
+  /*font-family: inherit;*/
+}
 hr{
-  font-weight: lighter;
+  width:200px;
+  margin-top:3%;
+}
+@media (max-width: 800px) {
+.phone{
+  background-image: url(../imgs/pic01.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.phone img{
+  display: none;
+}
+}
+@media (max-width: 800px) {
+  .row {
+  display: flex;
+  flex-direction: column;
+  }
 }
