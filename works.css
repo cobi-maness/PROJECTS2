@@ -1,0 +1,42 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+@import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace');
+
+
+body {
+  margin:0;
+  background-color:#FFD600;
+}
+section{
+  text-align: center;
+  margin-top:100px;
+  color:white;
+}
+.imgs ul {
+  list-style: none;
+}
+ul li {
+  padding:10px;
+}
+.imgs h1 {
+  font-size: 8em;
+  font-family: 'Archivo Black', sans-serif;
+  letter-spacing: 20px;
+  text-shadow: 5px 5px 5px #000000;
+  text-transform:uppercase;
+
+}
+.imgs h1:hover {
+
+}
+.imgs p {
+  font-family: 'Covered By Your Grace', cursive;
+  color:black;
+  font-size: 2em;
+}
+span {
+  margin-bottom:100px;
+}
+.imgs img {
+  margin-top:100px;
+}
