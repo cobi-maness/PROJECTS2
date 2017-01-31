@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+
+body{
+  margin:0;
+  background-color:#FFD600;
+
+
+}
+.round{
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left:500px;
+  margin-top:100px;
+  /*background-color:#20B2AA;*/
+  background-image:url(http://img.wallpaperfolder.com/f/5E7E44BA619F/golf-wang-striped.jpg);
+
+  text-align: center;
+  border-radius:100%;
+  height:500px;
+  width: 500px;
+}
+.round ul {
+  list-style-type:none;
+  /*display: flex;
+  justify-content: space-between;*/
+  margin-right:25px;
+}
+.round ul li {
+  font-family: 'Archivo Black', sans-serif;
+  color:white;
+  padding:20px;
+  text-shadow: 3px 3px #000000;
+  font-size:20px;
+
+}
+.round ul:hover{
+
+}
+.round ul a {
+text-decoration: none;
+color:white;
+text-shadow: 3px 3px #000000;
+font-family: 'Archivo Black', sans-serif;
+padding:10px;
+background-image: url(../imgs/hd_FLAMES.png);
+background-size:contain;
+/*box-shadow:5px 6px 7px #000000;*/
+font-size:20px;
+}
+.round ul a:hover{
+  color:#FFD600;
+}
+.mobile {
+  display: none;
+text-align: center;
+background-image:url(https://i.imgur.com/1yxjc4D.jpg);
+height:400px;
+}
+.mobile ul {
+  list-style-type: none;
+  margin-top:5%;
+
+}
+.mobile ul li {
+  color:white;
+  text-shadow: 3px 3px #000000;
+  font-family: 'Archivo Black', sans-serif;
+  padding:10px;
+  font-size:20px;
+}
+@media (max-width: 800px) {
+  .round{
+    display:none;
+  }
+  .mobile {
+    display: block;
+  text-align: center;
+  background-image:url(https://i.imgur.com/1yxjc4D.jpg);
+  height:400px;
+  }
+  .mobile ul {
+    list-style-type: none;
+    margin-top:5%;
+
+  }
+  .mobile ul li {
+    color:white;
+    text-shadow: 3px 3px #000000;
+    font-family: 'Archivo Black', sans-serif;
+    padding:10px;
+    font-size:20px;
+    margin-bottom:5%;
+  }
+  .a {
+    color:white;
+    text-shadow: 3px 3px #000000;
+    font-family: 'Archivo Black', sans-serif;
+    padding:10px;
+    font-size:15px;
+    text-decoration: none;
+
+    background-color:#FFD600;
+
+  }
+}

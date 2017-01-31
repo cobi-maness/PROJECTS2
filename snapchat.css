@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+
+body{
+  margin:0;
+  background-color:#0a0a0a;
+}
+span {
+  display: flex;
+  font-size:10em;
+  font-family: 'Archivo Black', sans-serif;
+  color:#0a0a0a;
+  justify-content: center;
+  text-shadow: 10px 10px  #fffb01;
+  transform: rotate(-4deg);
+  transition: .70s ease ;
+  width:100%;
+  margin: 0;
+
+}
+span:hover {
+  color:#fffb01;
+  text-shadow: 10px 10px  #0a0a0a;
+  transition: .70s ease ;
+  background-color:rgb(96, 63, 93);
+
+}
+
+div {
+text-align: center;
+background-color: #0a0a0a;
+height:100%;
+margin:0;
+}

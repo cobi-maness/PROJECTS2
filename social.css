@@ -1,0 +1,62 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+
+
+body{
+  background-color:#FFD600;
+  margin:0;
+}
+h1::after{
+  clear:both;
+  content: "";
+  display: block;
+}
+h1{
+ font-family: 'Archivo Black', sans-serif;
+  color:white;
+  font-size:6em;
+  text-shadow: 5px 5px 5px #000000;
+  /*float:right;*/
+  margin:0;
+  padding:0;
+  background-image:url(http://img.wallpaperfolder.com/f/5E7E7B96A099/golf-wang-striped-pc-album.png);
+  /*background-size: contain;*/
+  width:100%;
+  transition: font-size .75s ease;
+
+}
+h1:hover{
+  text-shadow: 15px 15px 15px #000000;
+  font-size:10em;
+  transition: font-size .75s ease;
+  /*text-align: center;
+  transition: text-align .75s ease;*/
+}
+.icons{
+  display:flex;
+  justify-content: center;
+  margin-top:200px;
+}
+.icons i {
+  font-size:9em;
+  padding:30px;
+  color:#3FB3AD;
+}
+.icons i:hover{
+  color:#DCB5BE;
+}
+.icons2{
+  font-size:5em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top:10%;
+}
+@media (max-width:800px) {
+  h1{
+    display: none;
+  }
+  .icons{
+    display: none;
+  }
+}
