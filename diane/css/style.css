@@ -1,0 +1,23 @@
+
+body{
+  margin:0;
+
+}
+header {
+  background-color: #21223E;
+  padding:5px;
+  position: fixed;
+  width:100%;
+}
+header > h1 {
+  color:white;
+  text-align: center;
+  color:#F9CB64;
+}
+section {
+  background-image:
+}
+.secimg {
+  display: flex;
+  flex-direction: column;
+}
