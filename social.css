@@ -19,8 +19,8 @@ h1{
   /*float:right;*/
   margin:0;
   padding:0;
-  background-image:url(http://img.wallpaperfolder.com/f/5E7E7B96A099/golf-wang-striped-pc-album.png);
-  /*background-size: contain;*/
+  background-image:url(https://allaboutthehouseblog.files.wordpress.com/2014/02/aath-horizontal-stripes-red.jpg);
+  background-size:cover;
   width:100%;
   transition: font-size .75s ease;
 
@@ -40,10 +40,10 @@ h1:hover{
 .icons i {
   font-size:9em;
   padding:30px;
-  color:#3FB3AD;
+  color:#D31F38;
 }
 .icons i:hover{
-  color:#DCB5BE;
+  color:white;
 }
 .icons2{
   font-size:5em;
@@ -51,6 +51,28 @@ h1:hover{
   flex-direction: column;
   text-align: center;
   margin-top:10%;
+  /*display: none;*/
+  /*color:#FFD600;
+  cursor: none;*/
+}
+.icons2 i {
+  color:#FFD600;
+  cursor: default;
+}
+#nav {
+  display:flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+#nav a {
+  color:white;
+  font-size:2em;
+  transition: all ease .50s;
+}
+#nav a:hover {
+  text-shadow: 5px 5px 5px #000000;
+  transition: all ease .50s;
+  font-size: 4em;
 }
 @media (max-width:800px) {
   h1{
@@ -59,4 +81,11 @@ h1:hover{
   .icons{
     display: none;
   }
+  .icons2 i {
+    font-size:2em;
+    padding:30px;
+    color:#D31F38;  }
+    .icons i:hover{
+      color:white;
+    }
 }

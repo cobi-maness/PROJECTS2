@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio');
+@import url('https://fonts.googleapis.com/css?family=Barrio|Lobster');
+body{
+  background-color: rgb(194, 0, 0);
+}
+div {
+  display: flex;
+  justify-content: center;
+  margin-top:300px;
+}
+a {
+  font-family: 'Lobster', cursive;
+  /*align-content: center;*/
+  font-size:4em;
+  background-color: rgb(255, 255, 255);
+  border:10px solid black;
+  border-radius: 15%;
+  padding:20px;
+  transition: all ease .50s;
+  margin:10px;
+  color:rgb(32, 5, 0);
+  text-decoration:none;
+}
+a:hover {
+  font-size: 6em;
+  letter-spacing: 5px;
+  transition: all ease .50s;
+  padding:30px;
+  border-radius:75%;
+}

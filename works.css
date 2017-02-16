@@ -1,6 +1,7 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url('https://fonts.googleapis.com/css?family=Archivo+Black');
 @import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace');
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono');
 
 
 body {
@@ -36,6 +37,7 @@ ul li {
 }
 span {
   margin-bottom:100px;
+  font-family: 'Overpass Mono', monospace;
 }
 .imgs img {
   margin-top:100px;

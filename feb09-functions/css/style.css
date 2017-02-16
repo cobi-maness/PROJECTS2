@@ -1,0 +1,18 @@
+html, body {
+  min-height: 100%;
+  height:100%;
+  margin:0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  background-color: rgb(204, 111, 108);
+  /*display: flex;*/
+  padding:20px;
+  border:2px solid black;
+  border-radius:3px;
+}

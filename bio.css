@@ -1,4 +1,4 @@
-
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace');
 @import url('https://fonts.googleapis.com/css?family=Archivo+Black');
 
@@ -11,7 +11,8 @@ body{
 main{
   margin-top:0;
   text-align: center;
-  background-image: url(http://img.wallpaperfolder.com/f/5E7ED353CA13/golf-wang-striped-pc-album.png);
+  background-image: url(../imgs/blue.png);
+  background-size: cover;
   max-width: 600px;
   height:1000px;
   margin-left: auto;
@@ -27,10 +28,11 @@ main h1 {
   text-shadow: 10px 10px 10px #000000;
 }
 main img {
-  height:400px;
-  width:auto;
+  /*height:400px;*/
+  height:500px;
+  width:500px;
   border-radius: 100%;
-  border:5px dashed black;
+  /*border:5px dashed black;*/
   filter: brightness(1.2) contrast(1.3) sepia(0.1);
 
 }
@@ -50,18 +52,21 @@ a {
   color:#20B2AA;
   font-family: 'Archivo Black', sans-serif;
   padding:20px;
-  background-image: url(http://i103.photobucket.com/albums/m140/kd9822/KillCat_zpsb5fd4778.jpg);
-  background-size:contain;
+  /*background-image: url(http://i103.photobucket.com/albums/m140/kd9822/KillCat_zpsb5fd4778.jpg);*/
+  /*background-size:contain;*/
   /*box-shadow:5px 6px 7px #000000;*/
-  font-size:2em;
-  transition: font-size .25s ease;
-  transition: box-shadow .70s ease;
+  font-size:4em;
+  transition: all .50s ease;
+  /*transition: box-shadow .70s ease;*/
   text-shadow: 5px 5px #000000;
-
+  margin-top:100px;
 
 }
 a:hover{
 color:white;
+font-size: 6em;
+transition: all .50s ease;
+
 }
 section{
   display: flex;

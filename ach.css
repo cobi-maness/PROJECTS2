@@ -1,4 +1,4 @@
-
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url('https://fonts.googleapis.com/css?family=Archivo+Black');
 
 body{
@@ -48,25 +48,16 @@ body{
 
 }
  #meh a {
-   /*display: flex;
-   position: relative;*/
-   /*font-size:2em;*/
-  text-decoration: none;
   color:white;
-  font-family: 'Archivo Black', sans-serif;
-  padding:20px;
-  background-image: url(../imgs/golf.jpg);
-  background-size:contain;
-  text-shadow: 5px 5px #000000;
-  /*margin-top: 100px*/
-  /*text-align: center;
-  margin-left:500px;
-  margin-top:50px;*/
+  text-shadow: 10px 10px 10px #000000;
+  font-size:35px;
+  transition: all ease .50s;
+
 }
 #meh a:hover{
-  color:#F0F09D;
-  box-shadow:5px 6px 7px #000000;
-
+  font-size:45px;
+  text-shadow: 20px 20px 20px #000000;
+  transition: all ease .50s;
 }
 #mobile{
   display: none;
