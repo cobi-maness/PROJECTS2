@@ -1,0 +1,7 @@
+h1{
+  font-size: 6em;
+  color:rgb(158, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-content:center;
+}

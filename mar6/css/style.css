@@ -1,0 +1,38 @@
+#modal {
+  position: fixed;
+  top:0;
+  right:0;
+  left:0;
+  bottom:0;
+
+  background-color:hsla(0, 0%, 0%, ,5);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+#modal form{
+    /*position: fixed;*/
+    background-color: hsl(0, 0%, 95%);
+    border: solid hsl(0, 0%, 90%) 1px;
+    padding: 16px;
+    /*top: 50vh;
+    left: 50vw;*/
+    /*transform: translate3d(-50%, -50%, 0);*/
+    box-shadow: 6px 6px 16px hsla(0, 0%, 0%, .8);
+    border-radius: 2px 2px 2px 2px;
+}
+
+#modal p {
+  margin: 0 0 16px;
+
+}
+#modal input[type='text']{
+  padding: 4px 8px;
+  font-family:inherit;
+  font-size: inherit;
+  margin-bottom: 8px;
+}
+#modal div {
+  display: flex;
+  justify-content: flex-end;
+}

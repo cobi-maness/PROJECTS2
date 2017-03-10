@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Megrim');
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+
+body{
+  color:white;
+  background-color: black;
+}
+header{
+  width:100%;
+  height:400px;
+  background-image: url(../imgs/lucy.PNG);
+  background-size:contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:black solid 3px;
+}
+header h1 {
+  font-family: 'Megrim', cursive;
+  font-size: 6em;
+  text-shadow: 2px 2px 8px black;
+  text-decoration: line-through;
+
+}
+ a {
+   margin-top:100px;
+  display: flex;
+  justify-content: center;
+  font-size:2em;
+  color:#C26073;
+  text-decoration: none;
+  font-family: 'VT323', monospace;
+  font-weight:100;
+  /*border:1px solid white;*/
+  padding:10px;
+  text-transform: lowercase;
+}
+main{
+  display: flex;
+  margin-left:100px;
+  margin-right:100px;
+  margin-top:300px;
+}
+h1 {
+  font-size:3em;
+}

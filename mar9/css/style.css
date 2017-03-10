@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+#meter{
+  color:black;
+  background-color:white;
+  position: fixed;
+  top:10px;
+  left:10px;
+  box-shadow: 4px 4px 8px hsla(0, 0%, 0%, .5);
+  padding:10px;
+}
+#meter ul {
+  padding:0;
+  margin: 0;
+  list-style-type: none;
+}
+
+header{
+  height:400px;
+  background-image: url('https://i.imgur.com/CpbIy63.png');
+  background-size: contain;
+  background-position: center;
+  background-blend-mode: hard-light;
+
+}
+header h1 {
+  color:white;
+  font-family: 'VT323', monospace;
+  text-align: center;
+  font-weight: 100;
+}
+body{
+  color:white;
+  background-color: black;
+  margin:0;
+}
+section{
+  display: flex;
+    margin-left:100px;
+    margin-right:100px;
+    margin-top:300px;
+}
+h2 {
+  font-size:4em;
+}

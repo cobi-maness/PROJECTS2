@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Megrim|Reem+Kufi');
+body{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+#content{
+  text-align: center;
+  padding:100px;
+  margin-top:100px;
+  font-family: 'Megrim', cursive;
+  color:rgb(191, 0, 0);
+}
+h1{
+  font-size:6em;
+  text-decoration: line-through;
+}
+a{
+  text-decoration: none;
+  transition: all .75s ease;
+
+}
+a:hover {
+  text-decoration: line-through;
+  color:black;
+  transition: all .75s ease;
+}
+p{
+  margin-top:80px;
+  transition: all .75s ease;
+
+}
+p:hover {
+  text-decoration: line-through;
+  color:black;
+  transition: all .75s ease;
+}
+
+a, p{
+  font-family: 'Special Elite', cursive;
+  background-color:white;
+  color:white;
+  padding-left: 10px;
+  padding-right:10px;
+}
+hr{
+  margin:0;
+  padding:0;
+}
