@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline|Droid+Sans+Mono');
+@import url('https://fonts.googleapis.com/css?family=Megrim');
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body{
+  margin:0;
+  /*margin-right:-50px;*/
+  background-color: black;
+}
+header {
+  background-image: url('../imgs/world.jpg');
+  background-position: center;
+  /*background-size: contain;*/
+  display: flex;
+  justify-content: center;
+  filter: brightness(2);
+
+}
+header > h1 {
+  font-family: 'Bungee Hairline', cursive;
+  font-size:6em;
+  color:white;
+  background-color: black;
+  width:100%;
+  text-align: center;
+  /*color:rgb(113, 26, 26);*/
+  transition: all .50s ease;
+
+
+}
+
+header > h1:hover {
+  letter-spacing: 17px;
+  transition: all .50s ease;
+  padding:50px;
+}
+
+section:nth-of-type(1){
+  margin-top:280px;
+  display: flex;
+  justify-content: center;
+}
+section h1 {
+  color:white;
+  font-family: 'Bungee Hairline', cursive;
+  display: flex;
+}
+section hr{
+  margin:15px;
+}
+#bio p:hover{
+  background-image: url('../imgs/me3.JPG');
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+  transition: all ease 1s;
+}
+#bio{
+  display: flex;
+  justify-content: center;
+  color:white;
+  text-align: center;
+}
+#bio p{
+width: 400px;
+line-height:50px;
+font-family: 'Droid Sans Mono', monospace;
+transition: all ease-out 1s;
+
+
+}
+.static{
+  margin-top:100px;
+  background-image: url("../imgs/movestatic.gif");
+  width: 100%;
+  height:350px;
+  background-position: center;
+  background-size:cover;
+  filter: grayscale(100%);
+  transition: all .50s ease-out;
+  background-attachment: fixed;
+
+}
+.static:hover{
+  filter: none;
+  transition: all .50s ease-in;
+}
+#skills {
+  color:white;
+  margin-top:200px;
+}
+#skills h1{
+  color:white;
+  font-family: 'Bungee Hairline', cursive;
+  display: flex;
+  border-bottom: 1px solid white;
+  width: 250px;
+  margin-bottom: 100px;
+  transition: all .50s ease;
+
+}
+#skills h1:hover {
+  width: 100%;
+  transition: all .50s ease;
+
+}
+section hr{
+  margin:15px;
+}
+
+#skills ul {
+  list-style-type:none;
+  margin-top:100px;
+}
+
+#row1, #row2{
+  padding:10px;
+  font-family: 'Droid Sans Mono', monospace;
+}
+
+li {
+  transition: all .50s ease-in;
+  padding:20px;
+  border-bottom: 1px solid white;
+
+
+}
+li:hover{
+  cursor:pointer;
+  border-bottom:1px solid white;
+  transition: all .50s ease-in;
+
+}
+#row1{
+  /*margin-left: 300px;*/
+
+}
+#row2{
+  text-align: right;
+  /*margin-right:300px;*/
+  width: 100%;
+
+}
+
+aside{
+  margin-top: 200px;
+  background-image: url('../imgs/tumblr1.gif');
+  width:100%;
+  height:350px;
+  background-size: cover;
+  filter: grayscale(100%);
+  transition: all .50s ease;
+
+}
+aside:hover{
+  filter:none;
+  transition: all .50s ease;
+}
+article{
+  margin-top:130px;
+  color: white;
+  text-align: center;
+
+}
+article a {
+  color:white;
+  font-size: 8em;
+
+}
+article h1 {
+  font-size:2em;
+  font-family: 'Megrim', cursive;
+  text-decoration: line-through;
+  letter-spacing: 10px;
+  transition: all .50s ease;
+
+}
+article h1:hover{
+  letter-spacing: 20px;
+  transition: all .50s ease;
+}
+
+footer{
+  margin-top:100px;
+  text-align: center;
+  color:white;
+  font-family: 'Bungee Hairline', cursive;
+
+}
+
+footer a {
+  font-size:20px;
+  color:white;
+  padding:10px;
+}

@@ -1,0 +1,52 @@
+header{
+  height:500px;
+  background-color:pink;
+  background-image: url(../imgs/jeep.png);
+  background-position: center;
+  background-size: cover;
+  transition: all ease 500ms;
+}
+nav ul{
+  padding:0;
+  margin:0;
+  list-style-type: none;
+  font-family: sans-serif;
+}
+nav > ul {
+  display: flex;
+  background-color: lightgrey;
+}
+nav li{
+  color:rgb(54, 59, 163);
+  transition: ease .75s all;
+}
+nav > ul > li{
+  position: relative;
+  transition: all 250ms ease-out;
+}
+nav > ul > li.hovering{
+  color:blue;
+}
+nav a{
+  padding: 8px 16px;
+  text-decoration: none;
+  color:inherit;
+  display: block;
+}
+nav > ul > li > a {
+display: inline-block;
+
+}
+nav > ul > li.hovering ul{
+top:100%;
+}
+nav > ul > li > ul{
+position: absolute;
+top:-1000%;
+transition: all 250ms ease-out;
+
+}
+nav ul ul {
+  width:200%;
+  background-color: lightgrey;
+}

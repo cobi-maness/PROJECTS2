@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo+Black');
 @import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace');
 @import url('https://fonts.googleapis.com/css?family=Overpass+Mono');
+@import url('https://fonts.googleapis.com/css?family=Candal');
 
 
 body {
@@ -31,9 +32,10 @@ ul li {
 
 }
 .imgs p {
-  font-family: 'Covered By Your Grace', cursive;
+  font-family: 'Candal', sans-serif;
   color:black;
   font-size: 2em;
+  text-transform: lowercase;
 }
 span {
   margin-bottom:100px;
